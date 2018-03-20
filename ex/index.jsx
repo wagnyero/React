@@ -1,13 +1,7 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import Family from "./family"
-import Member from "./member"
+import Field from "./field"
 
 ReactDOM.render(
-    <Family lastName="Lamoglia">
-        <Member name="Wagner" />
-        <Member name="Luciele" />
-        <Member name="Caroline" />
-    </Family>
-
+    <Field initialValue="Teste" />
 , document.getElementById("app"))

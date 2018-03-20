@@ -1,7 +1,7 @@
 import React from "react"
 
 function childrenWithProps(children, props){
-    return React.children.map(props.children,
+    return React.Children.map(props.children,
             child => React.cloneElement(child, {...props}))
 }
 
